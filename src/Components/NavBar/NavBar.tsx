@@ -1,5 +1,5 @@
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-export default function NavBar() {
+export function NavBar(){
     return (
         <Navbar
             shouldHideOnScroll
@@ -13,14 +13,18 @@ export default function NavBar() {
             </NavbarBrand>
             <NavbarContent justify="end">
                 <NavbarItem className="lg:flex">
-                    <Link className="text-white" href="#">Login</Link>
+                    <div className="no-hover-opacity">
+                        <Link className="text-white" href="#">Login</Link>
+                    </div>
                 </NavbarItem>
                 <NavbarItem>
-                    <Button
-                        as={Link}
-                        href="#" variant="flat"
-                        className="bg-light-soft-blue"
-                    > Sign Up</Button>
+                    <div className="no-hover-opacity">
+                        <Button
+                            as={Link}
+                            href="#" variant="flat"
+                            className="bg-white"
+                        > Sign Up</Button>
+                    </div>
                 </NavbarItem>
             </NavbarContent>
         </Navbar>
