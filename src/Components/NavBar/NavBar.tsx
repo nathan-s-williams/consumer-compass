@@ -1,5 +1,5 @@
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-export function NavBar(){
+function NavBar(){
     return (
         <Navbar
             shouldHideOnScroll
@@ -30,3 +30,5 @@ export function NavBar(){
         </Navbar>
     );
 }
+
+export default NavBar;
