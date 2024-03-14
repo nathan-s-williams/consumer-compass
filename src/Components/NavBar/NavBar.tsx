@@ -1,4 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+
 function NavBar(){
     return (
         <Navbar
@@ -9,7 +12,7 @@ function NavBar(){
             }}
         >
             <NavbarBrand>
-                <p>Consumer Compass</p>
+                <p className="font-roboto text-3xl font-normal">Consumer Compass</p>
             </NavbarBrand>
             <NavbarContent justify="end">
                 <NavbarItem className="lg:flex">
