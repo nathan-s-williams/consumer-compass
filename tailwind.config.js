@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif']
+      },
       colors: {
         'vivid-sky-blue': '#00ABE4',
         'light-soft-blue': '#E9F1FA'
