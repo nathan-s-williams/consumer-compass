@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 import { useRouteError } from "react-router-dom";
 
 interface RouterError extends Error {
